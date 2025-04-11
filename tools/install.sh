@@ -30,7 +30,7 @@ DOTFILES_PATH="${DOTFILES_REPO_PATH}/dotfiles"
 
 ## Check repository path 
 if [ ! -d "${DOTFILES_REPO_PATH}" ]; then
-    echp "create project repository directory"
+    echo "create project repository directory"
 
     mkdir -p "${DOTFILES_REPO_PATH}"
     if [ ! $? -eq 0 ]; then
