@@ -21,7 +21,7 @@ HOME="${HOME:-$(getent passwd $USER 2>/dev/null | cut -d: -f6)}"
 HOME="${HOME:-$(eval echo ~$USER)}"
 
 ## Repository path for dotfiles
-DOTFILES_REPO_PATH="${HOME}/ProjectsTest/github.com/kirill-zak"
+DOTFILES_REPO_PATH="${HOME}/Projects/github.com/kirill-zak"
 DOTFILES_PATH="${DOTFILES_REPO_PATH}/dotfiles"
 
 ########################
@@ -82,4 +82,4 @@ fi
 ##   Run setup script   ##
 ##########################
 
-sh -c "${DOTFILES_PATH}/dotfiles/scripts/setup.sh"
+sh -c "${DOTFILES_PATH}/scripts/setup.sh"
