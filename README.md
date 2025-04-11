@@ -5,5 +5,5 @@ Dotfiles for local env
 
 For install repository run:
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/kirill-zak/dotfiles/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/kirill-zak/dotfiles/refs/heads/master/tools/install.sh)"
 ```
